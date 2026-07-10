@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/tutorialStyle.uss?fileID=7433441132597879392&amp;guid=b82dfb5bef1a8824bab230e41179f6b4&amp;type=3#tutorialStyle"/>
+    <ui:VisualElement name="Root" style="flex-grow: 1; background-color: rgb(128, 128, 128); border-top-left-radius: 32px; border-top-right-radius: 32px; border-bottom-right-radius: 32px; border-bottom-left-radius: 32px;">
+        <ui:Label text="책자국" style="align-items: auto; justify-content: center; align-self: auto; font-size: 69px; -unity-text-align: upper-center; -unity-font-style: bold; opacity: 1;"/>
+        <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: center; flex-direction: row;">
+            <ui:Button text="시작하기" class="button"/>
+            <ui:Button text="사용법" class="button"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

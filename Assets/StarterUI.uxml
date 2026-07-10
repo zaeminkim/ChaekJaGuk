@@ -3,9 +3,9 @@
     <ui:VisualElement style="flex-grow: 1; -unity-text-align: upper-center; font-size: 50px;">
         <ui:Label text="Starter UI"/>
         <ui:VisualElement name="VisualElement" style="flex-grow: 1; -unity-text-align: upper-center; flex-direction: column; -unity-font-style: normal; align-items: stretch; justify-content: space-evenly; font-size: 20px;">
-            <ui:Button text="Button" class="buttonStyle"/>
-            <ui:Button text="Button" name="Button" class="buttonStyle" style="font-size: 20px; border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;"/>
-            <ui:Button text="Button" class="buttonStyle"/>
+            <ui:Button text="Button" name="Button1" class="buttonStyle"/>
+            <ui:Button text="Button" name="Button2" class="buttonStyle" style="font-size: 20px; border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px;"/>
+            <ui:Button text="Button" name="Button3" class="buttonStyle"/>
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>

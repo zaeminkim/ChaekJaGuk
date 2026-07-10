@@ -1,0 +1,16 @@
+:root {
+}
+
+.buttonStyle {
+    background-color: rgb(35, 196, 225);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    transition-duration: 0.5s;
+}
+
+.buttonStyle:hover {
+    scale: 1.03 1.03 1.03;
+    background-color: rgb(58, 233, 175);
+}

@@ -1,16 +1,35 @@
 :root {
 }
 
-.buttonStyle {
-    background-color: rgb(35, 196, 225);
+.unity-button {
+    font-size: 44px;
+    margin-top: 28px;
+    margin-right: 28px;
+    margin-bottom: 28px;
+    margin-left: 28px;
+    border-left-color: rgba(255, 255, 255, 0.471);
+    border-right-color: rgba(255, 255, 255, 0.471);
+    border-top-color: rgba(255, 255, 255, 0.471);
+    border-bottom-color: rgba(255, 255, 255, 0.471);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    background-color: rgba(68, 247, 164, 0.549);
+    letter-spacing: 0;
+    -unity-font-style: normal;
+    -unity-font-definition: url("project://database/Assets/PretendardJP-Regular.otf?fileID=12800000&guid=0af5021ccfaab99429214cba5d7d3d6d&type=3#PretendardJP-Regular");
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
+    padding-top: 20px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    padding-left: 45px;
     transition-duration: 0.5s;
 }
 
-.buttonStyle:hover {
-    scale: 1.03 1.03 1.03;
-    background-color: rgb(58, 233, 175);
+.unity-button:hover {
+    scale: 1.1 1.1 1.1;
 }

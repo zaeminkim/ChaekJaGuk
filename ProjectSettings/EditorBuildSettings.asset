@@ -8,7 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 0
+    path: Assets/Samples/XR Interaction Toolkit/3.3.2/World Space UI/DemoScene.unity
+    guid: ff0763a18b6d8804894cf3fd83ffa89b
   m_configObjects:
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5c76f72642ecc04408fcaaec69b4b570, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 364dbb1aeac183c4289139bb688ea3f0, type: 2}

@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 [InitializeOnLoad]
 internal static class MetaNativeHandMenuInstaller
 {
-    private const string TargetScenePath = "Assets/Scenes_Test/Hand Menu.unity";
+    private const string TargetScenePath = "Assets/Scenes_Test/TestScene.unity";
     private const string PokeCanvasTemplateGuid =
         "4db41829582c7d24f80ee9603868dd67";
 

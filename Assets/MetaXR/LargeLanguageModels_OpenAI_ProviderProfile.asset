@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LargeLanguageModels_OpenAI_ProviderProfile
   m_EditorClassIdentifier: Meta.XR.BuildingBlocks.AIBlocks::Meta.XR.BuildingBlocks.AIBlocks.OpenAIProvider
   supportedInferenceTypes: 1
-  apiKey: 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
+  apiKey: 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
   overrideApiKey: 0
   apiRoot: https://api.openai.com/v1/responses
   model: gpt-5

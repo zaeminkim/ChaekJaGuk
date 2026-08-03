@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b09a51a23f4ff4e3a83cce6c1908a2cc, type: 3}
+  m_Name: SpeechToText_OpenAI_ProviderProfile1
+  m_EditorClassIdentifier: Meta.XR.BuildingBlocks.AIBlocks::Meta.XR.BuildingBlocks.AIBlocks.OpenAIProvider
+  supportedInferenceTypes: 1
+  apiKey: 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
+  overrideApiKey: 0
+  apiRoot: https://api.openai.com/v1
+  model: gpt-4o-mini-transcribe
+  supportsVision: 1
+  inlineRemoteImages: 0
+  resolveRemoteRedirects: 1
+  maxInlineBytes: 0
+  sttResponseFormat: json
+  sttLanguage: ko
+  sttTemperature: 0
+  ttsVoice: ash
+  ttsOutputFormat: mp3
+  ttsSpeed: 1
+  ttsInstructions: 

@@ -1119,7 +1119,9 @@
           },
           {
             "name": "MeshCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes_Test/TestScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },

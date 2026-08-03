@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5224072014804027559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1573298113294762770}
+  - component: {fileID: 6196486882635570389}
+  m_Layer: 0
+  m_Name: XRHandDraw
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1573298113294762770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5224072014804027559}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.00271, y: 0.03585, z: -0.12028}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6196486882635570389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5224072014804027559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0bd0ff795a8a2142a8118ca15b68532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRHandDraw
+  trackingHand: {fileID: 0}
+  minFingerPinchStrength: 0.1
+  minDistanceBeforeNewPoint: 0.005
+  tubeDefaultWidth: 0.003
+  tubeSides: 12
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  defaultLineMaterial: {fileID: 2100000, guid: e83b74c78506b794b84599e9fc304c8b, type: 2}
+  enableGravity: 0
+  colliderTrigger: 0
